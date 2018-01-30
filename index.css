@@ -1,0 +1,47 @@
+#prelude img {
+  width: 100%;
+  height: 80%;
+  margin-top: 8%;
+}
+
+#cover img {
+  position: relative;
+  top: -65px;
+  left: 223px;
+  width: 38%;
+}
+
+#fps-0 .img{
+  background: url(./img/fps_history/fps0.jpg);
+}
+
+#netcode {
+  padding: 0;
+}
+
+#netcode .try {
+  font-size: 64px;
+  position: absolute;
+  top: -0.5em;
+  left: 1.5em;
+
+  -webkit-transform: translateZ(20px);
+  -moz-transform:    translateZ(20px);
+  -ms-transform:     translateZ(20px);
+  -o-transform:      translateZ(20px);
+  transform:         translateZ(20px);
+}
+
+#netcode h1 {
+  font-size: 190px;
+
+  -webkit-transform: translateZ(50px);
+  -moz-transform:    translateZ(50px);
+  -ms-transform:     translateZ(50px);
+  -o-transform:      translateZ(50px);
+  transform:         translateZ(50px);
+}
+
+#netcode .footnote {
+  font-size: 32px;
+}
